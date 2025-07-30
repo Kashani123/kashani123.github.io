@@ -1,6 +1,6 @@
 @@ -1 +1,19 @@
 # kashani123.github.io
-<!DOCTYPE html>
+<!DOCTYPE html lang= "en">
 <html>
 <head>
 <title>Lighthouse Activity</title>

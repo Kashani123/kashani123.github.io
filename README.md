@@ -6,6 +6,90 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<style>
+.body {
+   background-color: green; 
+    
+}
+/* Header section styling */
+#header h1 {
+    text-align: center;
+}
+/* Header section styling */
+#header h2 {
+    text-align: center;
+}
+/* Header section styling */
+.header {
+	text-align: center;
+}
+
+/* Container div  */
+.container {
+	
+    background-color: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+	width: 100%;
+    height: 100vh;
+	border: 1px solid black;
+
+	
+}
+	
+	
+/* left div */
+.Left-div {
+	background-color: #FFC0CB;
+	border: 1px solid black;
+}
+/* center div */
+.center-div{
+	background-color: #FF0000;  
+border: 1px solid black;	
+}
+
+/* right div */
+.right-div {
+    background-color: #FFFF00;
+	border: 1px solid black;
+}
+
+
+/* email styling */
+.email {
+	text-align: center;
+	border: 1px solid black;
+}
+/* Use a media query to add a breakpoint at 575px: */
+	@media screen and (max-width: 575px) {
+	.container {
+		display: block;
+        height: auto;
+		
+	}
+	
+		
+	}
+/* Use a media query to add a breakpoint at 575px: */
+	@media screen and (max-width: 575px) {
+	.Left-div, .center-div, .right-div {
+	float: none;	
+    width: 90%; /* The width is 90%, when the viewport is 800px or smaller */
+    text-align: center;
+	margin: auto;
+	border: 1px solid black;
+  }
+	}
+  
+  
+  
+
+
+	
+</style>
+
 <body>
 
 	<!-- Header div -->
